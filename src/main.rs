@@ -1,29 +1,10 @@
-# RUST_THREAD_SHARED_BOILERPLATE
+/*
+ * @Author: KuuwangE [admin@kuuwang.com] OR ShellcodeSniper [shellcodesniper@icloud.com] 
+ * @Date: 2021-08-03 16:16:01 
+ * @Last Modified by:   KuuwangE 
+ * @Last Modified time: 2021-08-03 16:16:01 
+ */
 
-RUST THREAD SHARED BOILERPLATE (rust 2018 based)
-
-
-
-## BOILERPLATE
-
-
-
-### FEATURES
-
-- Threading
-- env_logger
-- Arc Global Shared Variable (Can Access On Thread)
-- Util Module
-- Env Parsing
-- Color Printing
-- Debug Assertion
-- Env Set Variable
-- Clear Screen
-- Permission Check
-
-
-
-```rust
 #[macro_use]
 extern crate log;
 // use std::sync::{Arc, RwLock};
@@ -96,12 +77,3 @@ fn main() {
   //   println!("현재 프로그램 모드 {}", current_program_mode.str_value());
   // }
 }
-
-
-```
-
-
-
-
-
-RUST BASED ON RUST 2018
